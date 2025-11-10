@@ -1,4 +1,4 @@
-import { Box, Paper } from '@mui/material';
+import { Paper } from '@mui/material';
 import { useAppDispatch, useAppSelector } from '../../../app/hooks';
 import { setTripType, setPassengers, setCabinClass } from '../searchSlice';
 import { TripTypeDropdown } from './TripTypeDropdown';
